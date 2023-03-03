@@ -85,8 +85,8 @@ define( 'WP_DEBUG', false );
 
 $_SERVER['HTTPS']='on';
 
-define( 'WP_HOME', 'https://ed-5978073473744896.educative.run' );
-define( 'WP_SITEURL', 'https://ed-5978073473744896.educative.run' );
+define( 'WP_HOME', '{{EDUCATIVE_LIVE_VM_URL}}' );
+define( 'WP_SITEURL', '{{EDUCATIVE_LIVE_VM_URL}}' );
 
 /* That's all, stop editing! Happy publishing. */
 
